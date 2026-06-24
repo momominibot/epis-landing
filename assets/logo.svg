@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 210" width="200" height="210" role="img" aria-label="EPIS+">
+  <defs>
+    <clipPath id="pad">
+      <path d="M100,98 C70,98 47,119 45,149 C43,179 70,197 100,197 C130,197 157,179 155,149 C153,119 130,98 100,98 Z"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#pad)">
+    <rect x="28" y="90" width="72" height="60" fill="#E85C4A"/>
+    <rect x="100" y="90" width="72" height="60" fill="#F4B400"/>
+    <rect x="28" y="150" width="72" height="60" fill="#2E8B5E"/>
+    <rect x="100" y="150" width="72" height="60" fill="#2C5BD0"/>
+    <polygon points="100,98 122,150 78,150" fill="#000" opacity="0.06"/>
+  </g>
+  <ellipse cx="42" cy="106" rx="22" ry="28" fill="#2E8B5E"/>
+  <ellipse cx="80" cy="68" rx="23" ry="29" fill="#2C5BD0"/>
+  <ellipse cx="120" cy="68" rx="23" ry="29" fill="#E85C4A"/>
+  <ellipse cx="158" cy="106" rx="22" ry="28" fill="#F4B400"/>
+  <text x="99" y="182" text-anchor="middle" font-family="'Poppins','Trebuchet MS',Arial,sans-serif" font-weight="700" font-size="34" fill="#ffffff" letter-spacing="1">EPIS</text>
+  <text x="156" y="166" text-anchor="middle" font-family="'Poppins','Trebuchet MS',Arial,sans-serif" font-weight="700" font-size="20" fill="#ffffff">+</text>
+</svg>
