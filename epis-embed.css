@@ -8,7 +8,7 @@
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{font-family:'Nunito',system-ui,sans-serif;color:var(--ink);background:var(--cream);line-height:1.65;overflow-x:hidden;-webkit-font-smoothing:antialiased}
-h1,h2,h3,.brand{font-family:'Poppins',sans-serif;line-height:1.12;letter-spacing:-.01em}
+h1,h2,h3,.brand{font-family:'Poppins',sans-serif;line-height:1.12;letter-spacing:-.01em;overflow-wrap:break-word}
 img{max-width:100%;display:block}
 a{color:inherit;text-decoration:none}
 .wrap{width:min(1180px,92vw);margin:0 auto}
@@ -93,7 +93,7 @@ section.pad{padding:6.5rem 0}
 
 /* product range showcase */
 .range{background:var(--sage)}
-.range-grid{display:grid;grid-template-columns:1fr 1fr;gap:3.5rem;align-items:center}
+.range-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:3.5rem;align-items:center}
 .range-media{border-radius:26px;overflow:hidden;box-shadow:0 40px 80px -42px rgba(21,37,29,.5)}
 .range-media img{width:100%;display:block}
 .range h2{font-size:clamp(1.9rem,3.2vw,2.6rem);font-weight:700;margin:.6rem 0 1rem}
@@ -113,7 +113,7 @@ section.pad{padding:6.5rem 0}
 
 /* scrollytelling standard */
 .story{background:var(--sage);}
-.story-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:start}
+.story-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:3rem;align-items:start}
 .story-media{position:sticky;top:14vh;border-radius:26px;overflow:hidden;box-shadow:0 40px 80px -40px rgba(21,37,29,.5)}
 .story-media img{width:100%;height:560px;object-fit:cover}
 .story-steps{display:flex;flex-direction:column;gap:5.5rem;padding:3rem 0 6rem}
@@ -131,7 +131,7 @@ section.pad{padding:6.5rem 0}
 .stat .lab{margin-top:.5rem;color:rgba(234,255,243,.82);font-size:.98rem}
 
 /* why band with parallax image */
-.why-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:3.5rem;align-items:center}
+.why-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:3.5rem;align-items:center}
 .why-media{border-radius:26px;overflow:hidden;box-shadow:0 40px 80px -42px rgba(21,37,29,.5)}
 .why-media img{width:100%;height:480px;object-fit:cover;will-change:transform}
 .why h2{font-size:clamp(1.9rem,3.2vw,2.6rem);font-weight:700;margin-bottom:1rem}
