@@ -1,4 +1,5 @@
 (function(){var app=document.getElementById("epis-app");if(!app)return;
+try{document.querySelectorAll("link[rel~='icon'],link[rel='shortcut icon'],link[rel='apple-touch-icon']").forEach(function(l){l.remove();});var __f=document.createElement('link');__f.rel='icon';__f.type='image/png';__f.href='https://momominibot.github.io/epis-landing/assets/logo-artwork-transparent.png';document.head.appendChild(__f);}catch(e){}
 app.innerHTML=`<div id="prog" style="position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,#2E8B5E,#2C5BD0);z-index:9999"></div><main id="top">
 <section class="hero" id="hero">
   <div class="hero-bg" id="heroBg"></div>
