@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 220" width="700" height="220" font-family="Poppins,'Trebuchet MS',Arial,sans-serif">
+  <defs><clipPath id="pad"><path d="M100,98 C70,98 47,119 45,149 C43,179 70,197 100,197 C130,197 157,179 155,149 C153,119 130,98 100,98 Z"/></clipPath></defs>
+  <g transform="translate(8,6)">
+    <g clip-path="url(#pad)">
+      <rect x="28" y="90" width="72" height="60" fill="#E85C4A"/>
+      <rect x="100" y="90" width="72" height="60" fill="#F4B400"/>
+      <rect x="28" y="150" width="72" height="60" fill="#2E8B5E"/>
+      <rect x="100" y="150" width="72" height="60" fill="#2C5BD0"/>
+    </g>
+    <ellipse cx="42" cy="106" rx="22" ry="28" fill="#2E8B5E"/>
+    <ellipse cx="80" cy="68" rx="23" ry="29" fill="#2C5BD0"/>
+    <ellipse cx="120" cy="68" rx="23" ry="29" fill="#E85C4A"/>
+    <ellipse cx="158" cy="106" rx="22" ry="28" fill="#F4B400"/>
+  </g>
+  <text x="232" y="150" font-size="108" font-weight="800" letter-spacing="-3" fill="#15251D">EPIS<tspan fill="#E85C4A">+</tspan></text>
+</svg>
